@@ -16,7 +16,7 @@ mongoose.connect(config.mongoURI, {
   .catch(err => console.log(err))
 
 app.get('/', (req, res) => {
-  res.send('Hello World! 왜 안되나요??dhosahfsoafhal;ksdfh;alsdfkj;asgh')
+  res.send('Hello World!')
 })
 
 app.post('/register', (req, res) => {
